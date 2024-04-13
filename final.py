@@ -30,7 +30,7 @@ from skimage.transform import resize
 
 
 # Load your trained model
-model = souhaiel_model(tf)
+model = souhaiel(tf)
 
 # Define some constants
 ok = 'Normal'
